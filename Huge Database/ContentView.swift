@@ -11,8 +11,13 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView{
-            NavigationLink(destination: Gradients()){
-            Text("Hello, world!")
+            VStack{
+                NavigationLink(destination: Gradients()){
+                Text("Hello, world!")
+                }
+                NavigationLink(destination: OneGrid()){
+                Text("Hello, world two!")
+                }
             }
         }
     }
