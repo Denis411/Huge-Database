@@ -18,6 +18,9 @@ struct ContentView: View {
                 NavigationLink(destination: OneGrid()){
                 Text("Hello, world two!")
                 }
+                NavigationLink(destination: PractiseCGSize()){
+                    Text("CGSize practise")
+                }
             }
         }
     }

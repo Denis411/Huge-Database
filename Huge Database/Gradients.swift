@@ -76,7 +76,7 @@ struct Gradients: View {
             .padding(5)
             
         }
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarTitleDisplayMode(.automatic)
         
     }
 }
