@@ -16,6 +16,8 @@
 		1703AF6626768F8300FF44DA /* OneGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF6526768F8300FF44DA /* OneGrid.swift */; };
 		1703AF6E2677655E00FF44DA /* DatePickerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF6D2677655E00FF44DA /* DatePickerOne.swift */; };
 		1703AF742677890800FF44DA /* PractiseCGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF732677890800FF44DA /* PractiseCGSize.swift */; };
+		1703AF782678DE0D00FF44DA /* TrimAndShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF772678DE0D00FF44DA /* TrimAndShapes.swift */; };
+		1703AF7A267A121100FF44DA /* Ternary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF79267A121100FF44DA /* Ternary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1703AF6526768F8300FF44DA /* OneGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneGrid.swift; sourceTree = "<group>"; };
 		1703AF6D2677655E00FF44DA /* DatePickerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerOne.swift; sourceTree = "<group>"; };
 		1703AF732677890800FF44DA /* PractiseCGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseCGSize.swift; sourceTree = "<group>"; };
+		1703AF772678DE0D00FF44DA /* TrimAndShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimAndShapes.swift; sourceTree = "<group>"; };
+		1703AF79267A121100FF44DA /* Ternary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ternary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +70,14 @@
 				1703AF6526768F8300FF44DA /* OneGrid.swift */,
 				1703AF4E267666DB00FF44DA /* Huge_DatabaseApp.swift */,
 				1703AF5F26767CEF00FF44DA /* Modifiers.swift */,
+				1703AF79267A121100FF44DA /* Ternary.swift */,
 				1703AF5D267675FD00FF44DA /* Gradients.swift */,
 				1703AF50267666DB00FF44DA /* ContentView.swift */,
 				1703AF52267666E000FF44DA /* Assets.xcassets */,
 				1703AF57267666E000FF44DA /* Info.plist */,
 				1703AF54267666E000FF44DA /* Preview Content */,
 				1703AF732677890800FF44DA /* PractiseCGSize.swift */,
+				1703AF772678DE0D00FF44DA /* TrimAndShapes.swift */,
 			);
 			path = "Huge Database";
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1703AF6026767CEF00FF44DA /* Modifiers.swift in Sources */,
+				1703AF7A267A121100FF44DA /* Ternary.swift in Sources */,
+				1703AF782678DE0D00FF44DA /* TrimAndShapes.swift in Sources */,
 				1703AF51267666DB00FF44DA /* ContentView.swift in Sources */,
 				1703AF6E2677655E00FF44DA /* DatePickerOne.swift in Sources */,
 				1703AF742677890800FF44DA /* PractiseCGSize.swift in Sources */,
