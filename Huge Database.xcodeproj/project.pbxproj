@@ -18,6 +18,7 @@
 		1703AF742677890800FF44DA /* PractiseCGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF732677890800FF44DA /* PractiseCGSize.swift */; };
 		1703AF782678DE0D00FF44DA /* TrimAndShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF772678DE0D00FF44DA /* TrimAndShapes.swift */; };
 		1703AF7A267A121100FF44DA /* Ternary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF79267A121100FF44DA /* Ternary.swift */; };
+		1737860C267BB27400578108 /* LoadingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737860B267BB27400578108 /* LoadingLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1703AF732677890800FF44DA /* PractiseCGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseCGSize.swift; sourceTree = "<group>"; };
 		1703AF772678DE0D00FF44DA /* TrimAndShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimAndShapes.swift; sourceTree = "<group>"; };
 		1703AF79267A121100FF44DA /* Ternary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ternary.swift; sourceTree = "<group>"; };
+		1737860B267BB27400578108 /* LoadingLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingLine.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				1703AF5F26767CEF00FF44DA /* Modifiers.swift */,
 				1703AF79267A121100FF44DA /* Ternary.swift */,
 				1703AF5D267675FD00FF44DA /* Gradients.swift */,
+				1737860B267BB27400578108 /* LoadingLine.swift */,
 				1703AF50267666DB00FF44DA /* ContentView.swift */,
 				1703AF52267666E000FF44DA /* Assets.xcassets */,
 				1703AF57267666E000FF44DA /* Info.plist */,
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1737860C267BB27400578108 /* LoadingLine.swift in Sources */,
 				1703AF6026767CEF00FF44DA /* Modifiers.swift in Sources */,
 				1703AF7A267A121100FF44DA /* Ternary.swift in Sources */,
 				1703AF782678DE0D00FF44DA /* TrimAndShapes.swift in Sources */,
