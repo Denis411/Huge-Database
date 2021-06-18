@@ -19,6 +19,7 @@
 		1703AF782678DE0D00FF44DA /* TrimAndShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF772678DE0D00FF44DA /* TrimAndShapes.swift */; };
 		1703AF7A267A121100FF44DA /* Ternary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703AF79267A121100FF44DA /* Ternary.swift */; };
 		1737860C267BB27400578108 /* LoadingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737860B267BB27400578108 /* LoadingLine.swift */; };
+		17378612267CFF7C00578108 /* AnglesInGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17378611267CFF7B00578108 /* AnglesInGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1703AF772678DE0D00FF44DA /* TrimAndShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimAndShapes.swift; sourceTree = "<group>"; };
 		1703AF79267A121100FF44DA /* Ternary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ternary.swift; sourceTree = "<group>"; };
 		1737860B267BB27400578108 /* LoadingLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingLine.swift; sourceTree = SOURCE_ROOT; };
+		17378611267CFF7B00578108 /* AnglesInGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnglesInGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				1703AF6D2677655E00FF44DA /* DatePickerOne.swift */,
+				17378611267CFF7B00578108 /* AnglesInGradient.swift */,
 				1703AF6526768F8300FF44DA /* OneGrid.swift */,
 				1703AF4E267666DB00FF44DA /* Huge_DatabaseApp.swift */,
 				1703AF5F26767CEF00FF44DA /* Modifiers.swift */,
@@ -164,6 +167,7 @@
 			files = (
 				1737860C267BB27400578108 /* LoadingLine.swift in Sources */,
 				1703AF6026767CEF00FF44DA /* Modifiers.swift in Sources */,
+				17378612267CFF7C00578108 /* AnglesInGradient.swift in Sources */,
 				1703AF7A267A121100FF44DA /* Ternary.swift in Sources */,
 				1703AF782678DE0D00FF44DA /* TrimAndShapes.swift in Sources */,
 				1703AF51267666DB00FF44DA /* ContentView.swift in Sources */,

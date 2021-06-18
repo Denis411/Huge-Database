@@ -11,7 +11,7 @@ import SwiftUI
 struct Huge_DatabaseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Gradients()
         }
     }
 }
