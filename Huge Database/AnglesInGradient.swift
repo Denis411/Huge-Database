@@ -16,48 +16,79 @@ struct AnglesInGradient: View {
             VStack() {
                 VStack {
                     Text("Rectangle")
-                    Rectangle()
-                        .trim(from: someValueFrom, to: someValueTo)
-                        .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
-                        .frame(width: 200, height: 100)
-                        .padding(10)
+                    ZStack {
+                        Rectangle()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
+                            .frame(width: 200, height: 100)
+                            .padding(10)
+                        Rectangle()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .frame(width: 200, height: 100)
+                            .padding(10)
+                    }
                 }
                 
                 
                 VStack {
                     Text("Circle")
-                    Circle()
-                        .trim(from: someValueFrom, to: someValueTo)
-                        .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
-                        .frame(width: 150, height: 150)
-                        .padding(10)
+                    ZStack {
+                        Circle()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
+                            .frame(width: 150, height: 150)
+                            .padding(10)
+                        Circle()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .frame(width: 150, height: 150)
+                            .padding(10)
+                    }
                 }
                 
                 VStack {
                     Text("RoundedRectangle")
-                    RoundedRectangle(cornerRadius: 20)
-                        .trim(from: someValueFrom, to: someValueTo)
-                        .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
-                        .frame(width: 150, height: 150)
-                        .padding(10)
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
+                            .frame(width: 150, height: 150)
+                            .padding(10)
+                        RoundedRectangle(cornerRadius: 20)
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .frame(width: 150, height: 150)
+                            .padding(10)
+                    }
                 }
                 
                 VStack {
                     Text("Ellipse")
-                    Ellipse()
-                        .trim(from: someValueFrom, to: someValueTo)
-                        .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
-                        .frame(width: 150, height: 100)
-                        .padding(10)
+                    ZStack {
+                        Ellipse()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
+                            .frame(width: 150, height: 100)
+                            .padding(10)
+                        Ellipse()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .frame(width: 150, height: 100)
+                            .padding(10)
+                    }
                 }
                 
                 VStack {
                     Text("Capsule")
-                    Capsule()
-                        .trim(from: someValueFrom, to: someValueTo)
-                        .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
-                        .frame(width: 150, height: 100)
-                        .padding(10)
+                    ZStack {
+                        Capsule()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .stroke(Color.pink, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .bevel))
+                            .frame(width: 150, height: 100)
+                            .padding(10)
+                        
+                        Capsule()
+                            .trim(from: someValueFrom, to: someValueTo)
+                            .frame(width: 150, height: 100)
+                            .padding(10)
+                    }
                 }
                 
                 VStack(alignment: .leading) {
