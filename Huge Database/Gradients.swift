@@ -18,7 +18,7 @@ struct Gradients: View {
                 // MARK: - LinearGradient
                 
                 
-                Text("LinearGradient \n \n \n")
+                Text("LinearGradient ")
                     
                     .underline(true, color: Color.purple)
                     .header()

@@ -48,7 +48,7 @@ struct PractiseCGSize: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .frame(maxHeight: .infinity)
-        .background(Color(#colorLiteral(red: 0.4513868093, green: 0.9930960536, blue: 1, alpha: 0.33)))
+        .background(Color(#colorLiteral(red: 0.4513868093, green: 0.9930960536, blue: 1, alpha: 0.33)).ignoresSafeArea(.all))
         
     }
     
