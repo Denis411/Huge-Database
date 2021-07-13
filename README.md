@@ -4,3 +4,5 @@ Secondary purpose is to avoid redundancy and keeping minor files in one folder f
 Last but not least purpose is aimed at having access to the materials via any personal iPhone.
 
 Note: work on the project was started in the Russian Federation on June 15th and will probebly be completed in China.
+
+the end.
